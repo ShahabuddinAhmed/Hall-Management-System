@@ -1,1 +1,1 @@
-# Hall-Management-System
+# Hall-Management-System with core PHP
