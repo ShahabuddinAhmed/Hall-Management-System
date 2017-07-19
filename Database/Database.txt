@@ -101,3 +101,12 @@ create table notice(
 	About varchar(1000) not null,
 	Gd date not null
 )
+
+create table GroundFloor(
+room int primary key,
+one varchar(30) not null,
+two varchar(30) not null,
+three varchar(30) not null,
+four varchar(30) not null);
+
+insert into GroundFloor values('101','0', '0', '0', '0');
