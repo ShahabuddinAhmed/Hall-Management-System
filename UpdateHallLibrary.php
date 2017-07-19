@@ -104,7 +104,7 @@
             <ul class = "Top1">
                 <li class = "Top2"> <?php echo '<a class = "Top4" href="HallManagementSystem.php">Home</a>';?> </li>
             </ul>
-            </div>
+        </div>
         <div class="form">
             <div class="tab-content"> 
                 <h1>Enter Information</h1>

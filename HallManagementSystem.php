@@ -22,7 +22,7 @@
             padding: 0px;
             height: 100%;
             background-color: rgba(0,0,0,0.7); 
-            background: url("Picture/sabash-bangladesh-opt.jpg") fixed center;
+            background: url("Picture/bb.PNG") fixed center;
             background-size: cover;
 
         }
@@ -262,7 +262,7 @@
         </div>
         <footer>
             <h3> All Rights Reserved By</h3>
-            <h4> Group of Undefined: CSE RU-2013-14</h4>
+            <h4> Bangladesh University ICT Center</h4>
         </footer>
         </div>
     </div>

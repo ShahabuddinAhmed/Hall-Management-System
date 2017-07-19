@@ -8,7 +8,7 @@
         <link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,300,600' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/style.css">
-    
+
     </head>
 
     <style>
@@ -122,7 +122,7 @@
                             </label>
                             <input name="fname" type="text" required autocomplete="off" />
                         </div>
-        
+
                         <div class="field-wrap">
                             <label>
                                 Last Name<span class="req">*</span>
@@ -131,7 +131,7 @@
                         </div>
                     </div>
                     <div  class="field-wrap">
-                    
+
                         <input name="birth" type="date" required autocomplete="off"/>
                     </div>
                     <div class="field-wrap">
@@ -146,7 +146,7 @@
                         </label>
                         <input name="dept" type="text"required autocomplete="off"/>
                     </div>
-                    
+
                     <div class="field-wrap">
                         <label>
                             Session<span class="req">*</span>
@@ -190,7 +190,7 @@
                             <option value="Masters">Masters</option>
                         </select>
                     </div>
-                    
+
 
                     <button type="submit" class="button button-block"/>Submit</button>
                 </form>

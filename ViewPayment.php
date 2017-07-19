@@ -204,7 +204,7 @@ session_start();
                         <p> <strong>Nov:</strong> '.$row["Nov"].'</p>
                         <p> <strong>Decm:</strong> '.$row["Decm"].'</p>
                         <br>
-                        <br>                
+                        <br>
                     </div>
                     ';
                     }

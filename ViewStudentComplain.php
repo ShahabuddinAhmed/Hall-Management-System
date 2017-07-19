@@ -139,7 +139,7 @@
                     ';
                     }
                 }else{
-                    echo'No Notice';
+                    echo' <h1> No Student Complain </h1>';
                 }
                 $conn->close();
         ?>

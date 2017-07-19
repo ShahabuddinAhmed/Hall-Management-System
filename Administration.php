@@ -1,6 +1,6 @@
 <?php
     session_start();
-    if(!isset($_SESSION['ID']) || empty($_SESSION['ID']) || $_SESSION['ID']!="Admin" ){
+    if(!isset($_SESSION['ID']) || empty($_SESSION['ID']) || $_SESSION['ID']!="admin" ){
         header('location:HallManagementSystem.php'); 
     }
 
@@ -30,7 +30,7 @@
             padding: 0px;
             height: 100%;
             background-color: #c1bdba;
-            background: url("Picture/sabash-bangladesh-opt.jpg") fixed center;
+            background: url("Picture/bb.PNG") fixed center;
             background-size: cover;
         }
 
@@ -176,7 +176,7 @@
                         <div>
                             <ul class = "Left1">
                                 <?php echo '<li class = "Left2"><a class = "Left3" href="UpdateNoticeBoard.php"> Add Notice </a></li>';?>
-                                <?php echo '<li class = "Left2"><a class = "Left3" href="Ntctm.php"> Notice Board </a></li>';?>
+                                <?php echo '<li class = "Left2"><a class = "Left3" href="Ntctm.php">Delete Notice Board </a></li>';?>
                                 <?php echo '<li class = "Left2"><a class = "Left3" href="UpdateAdmin.php"> Update Administration </a></li>';?>
                                 <?php echo '<li class = "Left2"><a class = "Left3" href="UpdateHallLibrary.php"> Update Hall Library </a></li>';?>
                                 <?php echo '<li class = "Left2"><a class = "Left3" href="UpdateDining.php"> Update Dining </a></li>';?>
@@ -206,7 +206,7 @@
             </div>
             <footer>
                 <h3> All Rights Reserved By</h3>
-                <h4>Undefined</h4>
+                <h4>Bangladesh University ICT Center</h4>
             </footer>
             </div>
         </div>
