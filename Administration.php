@@ -160,8 +160,8 @@
             <div class = "Top">
 
                 <ul class = "Top1">
-                    <li class = "Top2"> <?php echo '<a class = "Top4" href="HallManagementSystem.php">Home</a>';?> </li>
-                    <li class = "Top2"> <?php echo '<a class = "Top4" href="LogOut.php"> LogOut </a>';?> </li>
+                    <li class = "Top2"> <a class = "Top4" href="HallManagementSystem.php">Home</a> </li>
+                    <li class = "Top2"> <a class = "Top4" href="LogOut.php"> LogOut </a> </li>
                 </ul>
             </div>
             <br>
@@ -175,17 +175,17 @@
                     <div class="col-md-6">
                         <div>
                             <ul class = "Left1">
-                                <?php echo '<li class = "Left2"><a class = "Left3" href="UpdateNoticeBoard.php"> Add Notice </a></li>';?>
-                                <?php echo '<li class = "Left2"><a class = "Left3" href="Ntctm.php">Delete Notice Board </a></li>';?>
-                                <?php echo '<li class = "Left2"><a class = "Left3" href="UpdateAdmin.php"> Update Administration </a></li>';?>
-                                <?php echo '<li class = "Left2"><a class = "Left3" href="UpdateHallLibrary.php"> Update Hall Library </a></li>';?>
-                                <?php echo '<li class = "Left2"><a class = "Left3" href="UpdateDining.php"> Update Dining </a></li>';?>
-                                <?php echo '<li class = "Left2"><a class = "Left3" href="UpdateCanteen.php"> Update Canteen </a></li>';?>
-                                <?php echo '<li class = "Left2"><a class = "Left3" href="UpdateEmergencyContact.php"> Update Emergency Contact </a></li>';?>
-                                <?php echo '<li class = "Left2"><a class = "Left3" href="UpdateHouseTutor.php"> Update House Tutor </a></li>';?>
-                                <?php echo '<li class = "Left2"><a class = "Left3" href="UpdateHallStuff.php"> Update Hall Stuff </a></li>';?>
-                                <?php echo '<li class = "Left2"><a class = "Left3" href="UpdateHallMosque.php"> Update Hall Mosque </a></li>';?>
-                                <?php echo '<li class = "Left2"><a class = "Left3" href="UpdateAbout.php"> Update About </a></li>';?>
+                                <li class = "Left2"><a class = "Left3" href="UpdateNoticeBoard.php"> Add Notice </a></li>
+                                <li class = "Left2"><a class = "Left3" href="Ntctm.php">Delete Notice Board </a></li>
+                                <li class = "Left2"><a class = "Left3" href="UpdateAdmin.php"> Update Administration </a></li>
+                                <li class = "Left2"><a class = "Left3" href="UpdateHallLibrary.php"> Update Hall Library </a></li>
+                                <li class = "Left2"><a class = "Left3" href="UpdateDining.php"> Update Dining </a></li>
+                                <li class = "Left2"><a class = "Left3" href="UpdateCanteen.php"> Update Canteen </a></li>
+                                <li class = "Left2"><a class = "Left3" href="UpdateEmergencyContact.php"> Update Emergency Contact </a></li>
+                                <li class = "Left2"><a class = "Left3" href="UpdateHouseTutor.php"> Update House Tutor </a></li>
+                                <li class = "Left2"><a class = "Left3" href="UpdateHallStuff.php"> Update Hall Stuff </a></li>
+                                <li class = "Left2"><a class = "Left3" href="UpdateHallMosque.php"> Update Hall Mosque </a></li>
+                                <li class = "Left2"><a class = "Left3" href="UpdateAbout.php"> Update About </a></li>
                             </ul>
                         </div>
                     </div>
@@ -195,10 +195,11 @@
                             <br>
                             <br>
                             <ul class = "Left1">
-                                <li class = "Left2"> <?php echo '<a class = "Left3" href="AdmitStudent.php">Admit Student</a>';?> </li>
-                                <li class = "Left2"> <?php echo '<a class = "Left3" href="ViewStudentComplain.php"> View Student Complain </a>';?> </li>
-                                <li class = "Left2"> <?php echo '<a class = "Left3" href="StudentPayment.php">Student Payment</a>';?> </li>
-                                <li class = "Left2"> <?php echo '<a class = "Left3" href="UpdateStudentInformation.php"> Update Student Information </a>';?> </li>
+                                <li class = "Left2"><a class = "Left3" href="AdmitStudent.php">Admit Student</a> </li>
+                                <li class = "Left2"><a class = "Left3" href="ViewStudentComplain.php"> View Student Complain </a></li>
+                                <li class = "Left2"><a class = "Left3" href="StudentPayment.php">Student Payment</a></li>
+                                <li class = "Left2"><a class = "Left3" href="UpdateStudentInformation.php"> Update Student Information </a></li>
+                                <li class = "Left2"><a class = "Left3" href="ViewRoomInfo.php"> View Room Info </a></li>
                             </ul>
                         </div>
                     </div>
