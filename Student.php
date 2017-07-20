@@ -1,6 +1,7 @@
 <?php
     session_start();
-    if(!isset($_SESSION['ID']) || empty($_SESSION['ID']) || $_SESSION['ID']=="Admin" ){
+    if(!isset($_SESSION['ID']) || empty($_SESSION['ID']))
+    {
         header('location:HallManagementSystem.php'); 
     }
 
