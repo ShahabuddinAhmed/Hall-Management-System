@@ -152,6 +152,7 @@
 		            $sql1 = "SELECT room FROM Floor WHERE room > 100 AND room < 200";
 		            $totalBook = 0;
 		            $totalBlank = 0;
+		            $counter = 0;
 	                $result1 = $conn->query($sql1);
 	                if($result1->num_rows>0)
 	                {
@@ -244,16 +245,19 @@
 	                    		</div>
 	                    	    ';
 	                    	}
+
+	                    	$counter = $counter + 1;
 	                    }
 
-	                    $totalRoomNumber = $totalBook + $totalBlank;
+	                    $totalSeatNumber = $totalBook + $totalBlank;
 
 	                    echo '
 
 	                    	<div class="vi">
-	                    		<h4>Total Room Number: '.$totalRoomNumber.' </h4>
-	                    		<h4>Total Room Booked: '.$totalBook.' </h4>
-	                    		<h4>Total Room Blank: '.$totalBlank.' </h4>
+	                    		<h4>Total Number of Room: '.$counter.' </h4>
+	                    		<h4>Total Number of Seat: '.$totalSeatNumber.' </h4>
+	                    		<h4>Total Number of Booked Seat: '.$totalBook.' </h4>
+	                    		<h4>Total Number of Blanked Seat: '.$totalBlank.' </h4>
 	                    	</div>
 
 	                    ';
@@ -279,6 +283,7 @@
 		            $sql1 = "SELECT room FROM Floor WHERE room > 200 AND room < 300";
 		            $totalBook = 0;
 		            $totalBlank = 0;
+		            $counter = 0;
 	                $result1 = $conn->query($sql1);
 	                if($result1->num_rows>0)
 	                {
@@ -371,16 +376,19 @@
 	                    		</div>
 	                    	    ';
 	                    	}
+
+	                    	$counter = $counter + 1;
 	                    }
 
-	                    $totalRoomNumber = $totalBook + $totalBlank;
+	                    $totalSeatNumber = $totalBook + $totalBlank;
 
 	                    echo '
 
 	                    	<div class="vi">
-	                    		<h4>Total Room Number: '.$totalRoomNumber.' </h4>
-	                    		<h4>Total Room Booked: '.$totalBook.' </h4>
-	                    		<h4>Total Room Blank: '.$totalBlank.' </h4>
+	                    		<h4>Total Number of Room: '.$counter.' </h4>
+	                    		<h4>Total Number of Seat: '.$totalSeatNumber.' </h4>
+	                    		<h4>Total Number of Booked Seat: '.$totalBook.' </h4>
+	                    		<h4>Total Number of Blanked Seat: '.$totalBlank.' </h4>
 	                    	</div>
 
 	                    ';
@@ -406,6 +414,7 @@
 		            $sql1 = "SELECT room FROM Floor WHERE room > 300 AND room < 400";
 		            $totalBook = 0;
 		            $totalBlank = 0;
+		            $counter = 0;
 	                $result1 = $conn->query($sql1);
 	                if($result1->num_rows>0)
 	                {
@@ -498,16 +507,19 @@
 	                    		</div>
 	                    	    ';
 	                    	}
+
+	                    	$counter = $counter + 1;
 	                    }
 
-	                    $totalRoomNumber = $totalBook + $totalBlank;
+	                    $totalSeatNumber = $totalBook + $totalBlank;
 
 	                    echo '
 
 	                    	<div class="vi">
-	                    		<h4>Total Room Number: '.$totalRoomNumber.' </h4>
-	                    		<h4>Total Room Booked: '.$totalBook.' </h4>
-	                    		<h4>Total Room Blank: '.$totalBlank.' </h4>
+	                    		<h4>Total Number of Room: '.$counter.' </h4>
+	                    		<h4>Total Number of Seat: '.$totalSeatNumber.' </h4>
+	                    		<h4>Total Number of Booked Seat: '.$totalBook.' </h4>
+	                    		<h4>Total Number of Blanked Seat: '.$totalBlank.' </h4>
 	                    	</div>
 
 	                    ';
@@ -533,6 +545,7 @@
 		            $sql1 = "SELECT room FROM Floor WHERE room > 400 AND room < 500";
 		            $totalBook = 0;
 		            $totalBlank = 0;
+		            $counter = 0;
 	                $result1 = $conn->query($sql1);
 	                if($result1->num_rows>0)
 	                {
@@ -625,16 +638,19 @@
 	                    		</div>
 	                    	    ';
 	                    	}
+
+	                    	$counter = $counter + 1;
 	                    }
 
-	                    $totalRoomNumber = $totalBook + $totalBlank;
+	                    $totalSeatNumber = $totalBook + $totalBlank;
 
 	                    echo '
 
 	                    	<div class="vi">
-	                    		<h4>Total Room Number: '.$totalRoomNumber.' </h4>
-	                    		<h4>Total Room Booked: '.$totalBook.' </h4>
-	                    		<h4>Total Room Blank: '.$totalBlank.' </h4>
+	                    		<h4>Total Number of Room: '.$counter.' </h4>
+	                    		<h4>Total Number of Seat: '.$totalSeatNumber.' </h4>
+	                    		<h4>Total Number of Booked Seat: '.$totalBook.' </h4>
+	                    		<h4>Total Number of Blanked Seat: '.$totalBlank.' </h4>
 	                    	</div>
 
 	                    ';
