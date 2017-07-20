@@ -102,11 +102,18 @@ create table notice(
 	Gd date not null
 )
 
-create table GroundFloor(
-room int primary key,
-one varchar(30) not null,
-two varchar(30) not null,
-three varchar(30) not null,
-four varchar(30) not null);
+create table Floor(
+room int(100) primary key,
+one int(100) not null,
+two int(100) not null,
+three int(100) not null,
+four int(100) not null);
 
-insert into GroundFloor values('101','0', '0', '0', '0');
+insert into Floor values('101','0', '0', '1', '0');
+insert into Floor values('102','1', '1', '0', '0');
+insert into Floor values('201','0', '0', '2', '2');
+insert into Floor values('202','1', '0', '2', '2');
+insert into Floor values('301','0', '2', '2', '2');
+insert into Floor values('302','1', '2', '2', '2');
+insert into Floor values('401','0', '1', '2', '2');
+insert into Floor values('403','0', '0', '1', '2');
