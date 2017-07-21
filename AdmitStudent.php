@@ -172,14 +172,7 @@
                         <input name="mobile" type="text"required autocomplete="off"/>
                     </div>
 
-                    <div class="field-wrap">
-                        <select name="roomType" class="mySelect">
-                            <option value="">Room Type</option>
-                            <option value="1">Single Seat</option>
-                            <option value="2">Double Seat</option>
-                            <option value="3">Four Seat</option>
-                        </select>
-                    </div>
+                    
                     <div class="field-wrap">
                         <select name="year" class="mySelect">
                          <option value=""> Select Year</option>
