@@ -183,6 +183,7 @@
                     <?php echo '<a  href="ViewPayment.php"><li> My Payment </li></a>';?>
                     <?php echo '<a  href="StudentChangePassword.php"><li> Change Password </li></a>';?>
                     <?php echo '<a  href="LogOut.php"><li> LogOut </li></a>';?>
+                    <?php echo '<a  href="myMeal.php"><li> My Meal </li></a>';?>
                 </ul>
             </nav>
 
