@@ -201,6 +201,7 @@
                                 <li class = "Left2"><a class = "Left3" href="UpdateStudentInformation.php"> Update Student Information </a></li>
                                 <li class = "Left2"><a class = "Left3" href="ViewRoomInfo.php"> View Room Info </a></li>
                                 <li class = "Left2"><a class = "Left3" href="addNewRoomNumber.php"> Add New Room Number </a></li>
+                                <li class = "Left2"><a class = "Left3" href="viewMealNumber.php"> View Meal Number </a></li>
                             </ul>
                         </div>
                     </div>
